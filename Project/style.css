@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-image: url('https://imageio.forbes.com/specials-images/imageserve/6661d59975c6529f1a9494f1/In-this-photo-illustration--the-Valorant-logo-is-displayed---/960x0.jpg?format=jpg&width=1440');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    margin: 0;
+    background-color: #1e1e2f;
+    color: #ffffff;
+    text-align: center;
+}
+
+/* Login Page */
+.login-container {
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #29293d;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+}
+
+.login-container input {
+    width: 100%;
+    margin: 10px 0;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+}
+
+.login-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff4655;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-container button:hover {
+    background-color: #e13d4b;
+}
+
+/* Main Page */
+header {
+    padding: 50px;
+    background-color: #eb3443;
+}
+
+.account-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+.account-card {
+    background-color: #29293d;
+    width: 250px;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.account-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.account-card h2 {
+    margin: 10px 0;
+}
+
+.account-card button {
+    background-color: #ff4655;
+    color: white;
+    border: none;
+    padding: 8px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.account-card button:hover {
+    background-color: #e13d4b;
+}
+
+footer {
+    margin-top: 380px;
+    padding: 10px;
+    background-color: #29293d;
+}
